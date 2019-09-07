@@ -4,12 +4,16 @@ body {
 h1 {
     font-size: 2em;
 }
-h2 {
-    font-size: 1.5em;
-}
-
 p {
     text-indent: 20px
+}
+body {
+    margin: 10px;
+}
+main {
+    width: 500px;
+    margin: 20px;
+    padding: 10px;
 }
 a:link {
     color: yellow;
@@ -19,13 +23,11 @@ a:visited {
 }
 a:hover, a:focus {
     color: purple;
+}
+ a:active {
+     color: green;
+ }
 
-}
-            a:active {
-                color: green;
-#header {
-    text-align: center;
-}
 #nav_list ul {
    list-style-type: none;
    padding: 1em 0;
@@ -41,4 +43,20 @@ a:hover, a:focus {
 
 #nav_list ul li a {
     font-weight: bold;
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    border:1px solid black;
+    padding: .2em .7em;
+    text-align: right;
+}
+th.left, td.left {
+    text-align: left;
+
+}
+thead {
+    background-color: red;
 }

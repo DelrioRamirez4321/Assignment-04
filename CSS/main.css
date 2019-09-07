@@ -15,7 +15,7 @@ a:link {
     color: green;
 }
 a:hover, a:focus {
-    color:red;
+    color:purple;
 
 }
 a:visited {
@@ -24,7 +24,19 @@ a:visited {
 #header {
     text-align: center;
 }
-#headers {
-    text-align: left;
+#nav_list ul {
+   list-style-type: none;
+   padding: 1em 0;
+   text-align: center;
+   border-top:2px solid black;
+   border-bottom:2px solid black;
+}
 
+#nav_list ul li {
+    display: inline;
+    padding: 0 1.5em;
+}
+
+#nav_list ul li a {
+    font-weight: bold;
 }

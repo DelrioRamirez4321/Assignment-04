@@ -12,15 +12,18 @@ p {
     text-indent: 20px
 }
 a:link {
-    color: green;
-}
-a:hover, a:focus {
-    color:purple;
-
+    color: yellow;
 }
 a:visited {
-    color: orange;
+    color: blue;
 }
+a:hover, a:focus {
+    color: purple;
+
+}
+            a:active {
+                color: green;
+            }
 #header {
     text-align: center;
 }
